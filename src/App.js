@@ -56,7 +56,7 @@ class App extends React.Component {
     );
   }
 }
-//by using dispatch requx knows this is and action that it will be passing to every reducer 
+//by using dispatch redux knows this is and action that it will be passing to every reducer 
 const mapStateToProps = ({ user }) => ({
     currentUser: user.currentUser 
 
